@@ -17,7 +17,7 @@ This project is an end-to-end data analytics solution built using **Excel**, **S
 - `Olist Visualization.pbix` – Power BI dashboard
 
 ## 📊 Dashboard
-If the `.pbix` file is too large on GitHub, you can [download it here](#) (upload to Google Drive and paste the link here).
+If the `Olist Visualization.pbix` file is too large on GitHub, you can download it from here : https://drive.google.com/file/d/1vB-hx5LzrLaFEGgDaXH-n8kvkcBXHYME/view?usp=sharing.
 
 ## 🧠 Insights
 - Delivery delays across states
