@@ -1,13 +1,13 @@
-# 🛍️ Olist Ecommerce Sales & Delivery Analysis
+# Olist Ecommerce Sales & Delivery Analysis
 
 This project is an end-to-end data analytics solution built using **Excel**, **SQL**, and **Power BI**. It explores Olist’s sales data to understand performance, delivery patterns, and customer behavior.
 
-## 🔧 Tools Used
+## Tools Used:
 - Microsoft Excel (Preprocessing)
 - SQL (Data querying)
 - Power BI (Dashboard)
 
-## 📁 Project Files
+## Project Files:
 - `Olist_Customers Table.csv` – Customer data
 - `Olist_OrderItems Table.csv` – Order line items
 - `Olist_Orders Table.csv` – Main order info
@@ -16,15 +16,13 @@ This project is an end-to-end data analytics solution built using **Excel**, **S
 - `Olist SQL.sql` – SQL queries used in the project
 - `Olist Visualization.pbix` – Power BI dashboard
 
-## 📊 Dashboard
+## Dashboard:
 If the `Olist Visualization.pbix` file is too large on GitHub, you can download it from here : https://drive.google.com/file/d/1vB-hx5LzrLaFEGgDaXH-n8kvkcBXHYME/view?usp=sharing.
 
-## 🧠 Insights
+## Insights:
 - Delivery delays across states
 - Best-selling products
 - Revenue vs payment type
 - Customer behavior patterns
 
----
 
-📌 *This project is part of my portfolio to showcase data analytics skills.*
