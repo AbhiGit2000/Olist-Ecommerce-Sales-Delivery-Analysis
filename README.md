@@ -1,98 +1,142 @@
-**Olist E-commerce Sales Dashboard
+### Project Overview
 
-**Project Overview
-
-*This project analyzes sales, customer behavior, delivery performance, and payment patterns for Olist, a Brazilian e-commerce platform. The goal was to convert raw transactional data into actionable business insights through data modeling, DAX calculations, and interactive Power BI visuals.
-
-**Objective
-
-*To design a professional-grade Power BI dashboard that highlights key sales and operational metrics, customer segmentation, and payment trends — enabling data-driven decisions to improve profitability and customer experience.
+This project analyzes sales performance, customer behavior, delivery efficiency, and payment patterns for Olist, a Brazilian e-commerce platform. The dashboard transforms raw transactional data into actionable business insights using structured data modeling, DAX calculations, and interactive Power BI visualizations.
 
 
-**Data Preparation
+## Data Preparation & Modeling
 
-Performed data cleaning in Excel (handled nulls, formatted dates, verified IDs).
+The dataset was cleaned and structured to ensure high analytical accuracy:
 
-Built a merged fact table in Power BI using Power Query.
+Cleaned raw data in Microsoft Excel (handled missing values, standardized formats, validated keys)
 
-Created calculated columns and DAX measures for key metrics:
+Built an integrated fact table in Power BI using Power Query
+
+Designed a star schema model for optimized performance and filtering
+
+Key Calculated Measures (DAX)
 
 Total Sales
+
+Total Orders
 
 Average Delivery Days
 
 Delayed Orders %
 
-Repeat Customers
+Repeat Customer Rate
 
 Average Spend per Customer
 
-Customer Segment (Repeat, One-Time)
+Customer Segmentation (Repeat / One-Time)
 
-**Dashboard Pages
-Page 1 – Executive Overview
 
-KPIs: Total Sales, Total Orders, Profit, Delay %.
 
-Sales trend by month and category.
+## Business Questions Answered
 
-Regional performance map.
+This project was structured to answer key business and operational questions:
 
-Delivery performance (on-time vs delayed).
+Which regions generate the highest revenue and order volume?
 
-Payment method distribution.
+Which product categories contribute most to sales and profit?
 
-Page 2 – Customer Insights
+How efficient is delivery performance across regions?
 
-Customer segmentation (Loyal, Regular, One-time).
+What is the repeat customer rate and how valuable are loyal customers?
 
-Average spend per customer.
+Which payment methods drive the majority of transactions?
 
-Customer repeat rate.
+How does seasonality affect sales patterns?
 
-Regional segmentation view by state.
+What products and categories should be prioritized for growth?
 
-Page 3 – Product & Payment Analysis
+### Dashboard Structure
 
-Top 10 products by sales.
+## Page 1: Executive Overview
 
-Category-wise revenue contribution.
+High-level view of overall platform performance.
 
-Installment pattern analysis.
+KPIs:
 
-Payment method breakdown and trend.
+Total Sales
 
-**Key Insights & Recommendations
+Total Orders
 
-Regional Performance: SP, RJ, and MG drive the highest order volumes and revenue.
-➤ Focus marketing and logistics resources here to maintain fast delivery and high satisfaction.
+Total Profit
 
-Category Trends: Home & Kitchen and Computer Accessories dominate sales with shorter delivery times.
-➤ Ensure stock availability and promote high-performing categories.
+Delay Percentage
 
-Seasonality: March, May, August, and November show recurring sales peaks.
-➤ Plan campaigns and discount offers around these seasonal spikes.
+## Visuals:
 
-Payment Patterns: Credit Cards dominate transactions, with higher installment use in November.
-➤ Collaborate with banks for EMI or cashback offers to drive more sales.
+Monthly Sales Trend
 
-**Tools & Technologies
+Category Performance
 
-Data Cleaning: Microsoft Excel
+Regional Sales Map
 
-Data Modeling & Visualization: Power BI
+Delivery Performance (On-time vs Delayed)
 
-Language: DAX, Power Query M
+### Payment Method Distribution
 
-Design Style: Consistent color theme, KPI cards, shadows, and modern layout
+## Page 2: Customer Insights
 
-**Learnings
+Focused on customer behavior and retention.
 
-Building star-schema data models from transactional data.
+# Visuals:
 
-Applying DAX for custom measures and segmentation.
+Customer Segmentation (Loyal / Repeat / One-Time)
 
-Designing interactive visuals and consistent color themes.
+Average Spend per Customer
 
-Translating analytical findings into business recommendations.
+Repeat Purchase Rate
 
+### Regional Customer Distribution
+
+## Page 3: Product & Payment Analysis
+
+Deep-dive into product and payment patterns.
+
+# Visuals:
+
+Top 10 Products by Revenue
+
+Category-wise Revenue Contribution
+
+Installment Usage Trends
+
+Payment Method Distribution and Trends
+
+## Key Business Insights & Recommendations
+
+Regional Performance: SP, RJ, and MG generate the highest revenue and order volume.
+➤ Focus marketing and logistics investments in these regions to maintain fast delivery and customer satisfaction.
+
+Category Trends: Home & Kitchen and Computer Accessories dominate sales with faster delivery times.
+➤ Prioritize inventory planning and promotions around these high-performing categories.
+
+Seasonality: Sales peak in March, May, August, and November.
+➤ Align marketing campaigns and promotional strategies with these high-demand periods.
+
+Payment Behavior: Credit Cards dominate transactions, with increased installment usage in November.
+➤ Partner with financial institutions for EMI and cashback offers to drive higher conversions.
+
+## Tools & Technologies
+
+Microsoft Excel – Data cleaning and preprocessing
+
+Power BI – Data modeling and visualization
+
+DAX – Measures, KPIs, and time-intelligence calculations
+
+Power Query (M) – Data transformation and shaping
+
+## Skills Demonstrated
+
+End-to-end data cleaning and transformation
+
+Star schema data modeling
+
+DAX-based KPI development
+
+Interactive dashboard design
+
+Business storytelling with data
